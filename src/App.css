@@ -1,12 +1,8 @@
-.App {
-  text-align: center;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +22,18 @@
 
 .App-link {
   color: #61dafb;
+}
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: black !important;
+  font-size: 20px !important;
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  color: black !important;
 }
 
 @keyframes App-logo-spin {
