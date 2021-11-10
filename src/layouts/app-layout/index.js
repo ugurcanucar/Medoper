@@ -8,6 +8,8 @@ import { connect } from "react-redux";
 import { signOut } from "redux/actions/Auth";
 import "./styles.css";
 import Aos from "aos";
+import "aos/dist/aos.css";
+import "animate.css/animate.min.css";
 
 const menu = (
   <Menu className="mt-2">
@@ -117,7 +119,7 @@ export const AppLayout = (props) => {
         <div className="w-14 h-14 fixed bottom-5 z-50 right-5">
           <Button
             shape="circle"
-            className="w-14  bg-green-400 border-gray-300 shadow-sm h-14   relative"
+            className="w-14  bg-green-400   border-gray-300 shadow-sm h-14   relative"
           >
             <span className="fa fa-comment text-white"></span>
           </Button>
